@@ -13,7 +13,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"golang.design/x/clipboard"
+	"github.com/gwicki-meier/clipboard"
 )
 
 func usage() {

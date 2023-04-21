@@ -24,16 +24,15 @@
 //
 // - For desktop:
 //
-// 	go build -o gclip-gui
+//	go build -o gclip-gui
 //
 // - For Android:
 //
-// 	gomobile build -v -target=android -o gclip-gui.apk
+//	gomobile build -v -target=android -o gclip-gui.apk
 //
 // - For iOS:
 //
-// 	gomobile build -v -target=ios -bundleid design.golang.gclip-gui.app
-//
+//	gomobile build -v -target=ios -bundleid design.golang.gclip-gui.app
 package main
 
 import (
@@ -45,7 +44,7 @@ import (
 	"sync"
 	"time"
 
-	"golang.design/x/clipboard"
+	"github.com/gwicki-meier/clipboard"
 
 	"golang.org/x/image/font"
 	"golang.org/x/image/font/basicfont"
